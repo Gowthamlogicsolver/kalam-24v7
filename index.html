@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Kalam'24</title>
+
+  <script>
+    // Script to toggle the dropdown menu and hamburger animation
+    document.addEventListener('DOMContentLoaded', () => {
+      const hamburger = document.querySelector('.hamburger');
+      const navMenu = document.querySelector('nav ul');
+
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+        <img src="kct.png" alt="Kct-Logo" style="height: 40px;">
+    </div>
+    
+    <!-- Hamburger Icon for small screens -->
+    <div class="hamburger">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#team">Team Details</a></li>
+      <li><a href="#fixtures">Fixtures</a></li>
+      <li><a href="#rules">Rules & Regulations</a></li>
+      <li><a href="#points-table">Points Table</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sections -->
+  <section id="home">
+  </section>
+
+  <section id="about">
+  </section>
+
+  <section id="team">
+    <div class="table-container">
+      
+      <!-- First Team Table -->
+      <table>
+        <thead>
+          <tr>
+            <th>Team Name</th>
+            <th>Team Captain</th>
+            <th>Team Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Vipers</td>
+            <td>Dhiran K S</td>
+            <td><button onclick='openModal("Vipers", "Dhiran K S", "Pratheeban J R", "Divya S", "8220011252", "The Vipers symbolize stealth, agility, and tenacity. A team named after vipers embodies a fierce competitive edge, often characterized by quick thinking and strategic moves. They are known for their ability to adapt to any situation, striking with precision and confidence when the opportunity arises. For a precise colour, a striking venom green paired with a dark charcoal would be ideal. The venom green represents energy and intensity, while the charcoal adds a sense of strength and sophistication. Together, these colours reflect the dynamic and powerful nature of the Vipers as a team!","https://kumaragurudtsteam-my.sharepoint.com/:x:/r/personal/raguladhithya_21it_kct_ac_in/Documents/Kalam%2024/Team%20Wise%20List/vipers.xlsx?d=web0a66bfd4064ab3a93ea51813f53617&csf=1&web=1&e=scqfYS")'>Tap to view team details</button></td>
+          </tr>
+          <tr>
+            <td>Falcons</td>
+            <td>Dinesh Arun M</td>
+            <td><button onclick="openModal('Falcons', 'Dinesh Arun M', 'Lourd Allwin S K', 'Saranya M', '9095557788','The Falcons symbolize speed, precision, and keen vision. A team named after falcons embodies agility and sharp focus, often soaring above challenges and quickly adapting to changing circumstances. They are known for their strategic thinking and teamwork, working together to achieve their goals with grace and determination. For a precise colour, a sleek navy blue paired with a striking silver would be fitting. The navy blue represents trust and confidence, while the silver adds a modern touch, reflecting the falcons swift, aerodynamic nature. This combination captures both the elegance and power of the falcon as a team!','https://kumaragurudtsteam-my.sharepoint.com/:f:/g/personal/raguladhithya_21it_kct_ac_in/ElURbkO_rOVOiyTeewLAmRUBJp1CUn4gV7fSGerJaPResg?e=7orKmw')">Tap to view team details</button></td>
+          </tr>
+          <tr>
+            <td>Eagles</td>
+            <td>Subbaiah P L</td>
+            <td><button onclick="openModal('Eagles', 'Subbaiah P L', 'Sanjay M', 'Prathumna S', '9790634166','The Eagles embody strength, freedom, and leadership. A team named after eagles represents high aspirations, resilience, and a keen ability to navigate challenges. Known for their sharp vision and strategic prowess, eagles inspire confidence and determination, often soaring above obstacles to achieve their goals. For a precise colour, a deep emerald green paired with a crisp white would be fitting. The emerald green symbolizes growth and ambition, while the white represents clarity and purity of purpose. Together, they capture the majestic spirit of the eagle and the values of a strong, united team!','https://kumaragurudtsteam-my.sharepoint.com/:x:/r/personal/raguladhithya_21it_kct_ac_in/Documents/Kalam%2024/Team%20Wise%20List/eagles.xlsx?d=w997b3d50a2a941bbbe76e7a428bfb749&csf=1&web=1&e=oLFFfd')">Tap to view team details</button></td>
+          </tr>
+          <tr>
+            <td>Hawks</td>
+            <td>Aditya S M</td>
+            <td><button onclick="openModal('Hawks', 'Aditya S M', 'Harish M', 'Jhansi P', '7397550762', 'The Hawks represent agility, speed, and keen perception. A team named after falcons embodies a fierce competitive spirit, characterized by strategic thinking and swift execution. Known for their teamwork and determination, they rise to challenges and soar above their competition, always aiming for new heights. For a precise colour, a bold royal blue paired with a bright gold would be ideal. The royal blue conveys trust and strength, while the gold symbolizes achievement and excellence. Together, they reflect the dynamic and soaring nature of the falcon!','https://kumaragurudtsteam-my.sharepoint.com/:x:/r/personal/raguladhithya_21it_kct_ac_in/Documents/Kalam%2024/Team%20Wise%20List/hawks.xlsx?d=w1a7a71d0471c41de9859a8f64ce08d2e&csf=1&web=1&e=938WMX')">Tap to view team details</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Second Team Table -->
+      <table>
+        <thead>
+          <tr>
+            <th>Team Name</th>
+            <th>Team Captain</th>
+            <th>Team Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Groupers</td>
+            <td>Shiny Shalom J</td>
+            <td><button onclick="openModal('Groupers', 'Shiny Shalom J', 'Niyas Khan A', 'Soundarya N', '9944410675','The Groupers symbolize teamwork, adaptability, and resilience. A team named after groupers embodies the strength found in collaboration and unity, thriving in diverse environments. Known for their strategic approach and ability to navigate challenges together, they emphasize the importance of cooperation and support. For a precise colour, a vibrant teal paired with a soft coral would be fitting. The teal represents harmony and balance, while the coral adds a touch of warmth and enthusiasm. Together, these colours reflect the vibrant, cohesive spirit of the Groupers as a team!','https://kumaragurudtsteam-my.sharepoint.com/:x:/r/personal/raguladhithya_21it_kct_ac_in/Documents/Kalam%2024/Team%20Wise%20List/groupers.xlsx?d=w0123e527a89f418c827feef6f687ea65&csf=1&web=1&e=DeJcui')">Tap to view team details</button></td>
+          </tr>
+          <tr>
+            <td>Alligators</td>
+            <td>Hashwic V Vincent</td>
+            <td><button onclick="openModal('Alligators', 'Hashwic V Vincent', 'Abishek R', 'Rithika M', '6383168413','The Alligators embody strength, adaptability, and resilience. A team named after alligators represents a powerful presence, capable of navigating both land and water with ease. Known for their tenacity and strategic approach, they tackle challenges head-on and exhibit a fierce loyalty to one another. For a precise colour, a deep forest green paired with a warm golden yellow would be ideal. The forest green symbolizes strength and stability, while the golden yellow adds a touch of energy and optimism. Together, these colours capture the formidable and dynamic essence of the Alligators as a team!','https://kumaragurudtsteam-my.sharepoint.com/:x:/r/personal/raguladhithya_21it_kct_ac_in/Documents/Kalam%2024/Team%20Wise%20List/alligators.xlsx?d=w073a5cf2746d4f40b4dc9f8fe4ae1f80&csf=1&web=1&e=Mvo26U')">Tap to view team details</button></td>
+          </tr>
+          <tr>
+            <td>Lions</td>
+            <td>Haridha T</td>
+            <td><button onclick="openModal('Lions', 'Haridha T', 'Chandeesh Munishwar E', 'Amitha S', '9965377030','The Lions are often associated with strength, courage, and leadership, making them a powerful symbol for any team. They typically embody traits like teamwork, resilience, and determination, often striving for excellence in their pursuits. As for a colour, a rich gold or deep royal blue would be fitting. Gold represents excellence and success, while royal blue adds a sense of trust and loyalty—perfect for a team that embodies the spirit of the lion!','https://kumaragurudtsteam-my.sharepoint.com/:x:/r/personal/raguladhithya_21it_kct_ac_in/Documents/Kalam%2024/Team%20Wise%20List/lions.xlsx?d=w6de4c97df94f430f9d2b90b80494daf9&csf=1&web=1&e=scpeUY')">Tap to view team details</button></td>
+          </tr>
+          <tr>
+            <td>Tigers</td>
+            <td>Laksitha Raju S</td>
+            <td><button onclick="openModal('Tigers', 'Laksitha Raju S', 'Vimal P', 'Sriswetha S', '9080766092','The Tigers represent agility, power, and fierce competitiveness. Known for their sharp instincts and adaptability, a team named after tigers embodies a relentless drive to succeed and a bold, fearless attitude. They thrive in challenging situations and often display a strong sense of unity and pride. For a precise colour, a vibrant orange with black accents would be ideal. The orange symbolizes energy and enthusiasm, while the black adds a touch of strength and sophistication, perfectly capturing the essence of a tiger-themed team!','https://kumaragurudtsteam-my.sharepoint.com/:x:/r/personal/raguladhithya_21it_kct_ac_in/Documents/Kalam%2024/Team%20Wise%20List/tigers.xlsx?d=wacf15da2887548e19bc22a4d900bcbac&csf=1&web=1&e=975BK0')">Tap to view team details</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </section>
+
+ <!-- Modal for Team Details -->
+ <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <button class="close-modal" onclick="closeModal()">✖</button>
+      <h2 id="modal-team-name"></h2>
+      <p><strong>Captain:</strong> <span id="modal-captain"></span></p>
+      <p><strong>Vice Captain (Men):</strong> <span id="modal-vice-captain-men"></span></p>
+      <p><strong>Vice Captain (Women):</strong> <span id="modal-vice-captain-women"></span></p>
+      <p><strong>Contact Number:</strong> <span id="modal-contact-number"></span></p>
+      <p><strong>Team Description:<br></strong> <span id="modal-description"></span></p>
+      <a id="view-members-link" href="#" target="_blank"><button>Tap to view team members</button></a>
+    </div>
+  </div>
+
+  <script>
+    function openModal(teamName, captain, viceCaptainMen, viceCaptainWomen, contactNumber, description, membersLink) {
+      document.getElementById('modal-team-name').textContent = teamName;
+      document.getElementById('modal-captain').textContent = captain;
+      document.getElementById('modal-vice-captain-men').textContent = viceCaptainMen;
+      document.getElementById('modal-vice-captain-women').textContent = viceCaptainWomen;
+      document.getElementById('modal-contact-number').textContent = contactNumber;
+      document.getElementById('modal-description').textContent = description;
+      document.getElementById('view-members-link').href = membersLink;
+      // Show the modal and blur the background
+      document.getElementById('modal-overlay').style.display = 'flex';
+      document.getElementById('team').style.filter = 'blur(5px)';
+    }
+
+    function closeModal() {
+      // Hide the modal and remove blur effect
+      document.getElementById('modal-overlay').style.display = 'none';
+      document.getElementById('team').style.filter = 'none';
+    }
+  </script>
+
+  <section id="fixtures">
+  </section>
+
+  <section id="rules">
+  </section>
+
+  <!-- Points Table Section -->
+<section id="points-table">
+  <div class="points-table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Serial No.</th>
+          <th>Team Name</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <tr>
+          <td>1</td>
+          <td>Vipers</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Falcons</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Eagles</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Hawks</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Groupers</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Alligators</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Lions</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Tigers</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+<script>
+  // script.js
+
+let url = "https://api.sheety.co/4e3fb614cc2b75005623db41a01c2feb/kalam'24PointsTable/formResponses1";
+
+
+function loadPointsTable() {
+    fetch(url)
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(json => {
+            // Log the entire JSON response to see its structure
+            console.log(json);
+
+            // Access the correct key based on your JSON structure
+            const rows = json.formResponses1; // Adjust this based on your actual JSON structure
+            const tableBody = document.getElementById("tableBody");
+            tableBody.innerHTML = ''; // Clear existing data
+
+            // Check if rows is defined and is an array
+            if (rows && Array.isArray(rows) && rows.length > 0) {
+                const teamNames = ['vipers', 'falcons', 'eagles', 'hawks', 'groupers', 'alligators', 'lions', 'tigers'];
+
+                // Get the latest response (the last entry in the rows array)
+                const latestResponse = rows[rows.length - 1];
+
+                // Create an array to hold team data
+                const teamsData = teamNames.map((team) => {
+                    return {
+                        name: team,
+                        points: latestResponse[team] !== undefined ? latestResponse[team] : 0 // Use 0 if points are undefined
+                    };
+                });
+
+                // Sort the teams based on points in descending order
+                teamsData.sort((a, b) => b.points - a.points);
+
+                // Loop through sorted team data and create rows
+                teamsData.forEach((team, index) => {
+                    const tableRow = document.createElement('tr');
+
+                    // Fill the row with data
+                    tableRow.innerHTML = `
+                        <td>${index + 1}</td>
+                        <td>${team.name}</td>
+                        <td>${team.points}</td>
+                    `;
+
+                    // Append the row to the table body
+                    tableBody.appendChild(tableRow);
+                });
+            } else {
+                console.error('Rows is not defined or not an array', rows);
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching data from Sheety:', error);
+        });
+}
+
+// Initial call to load the points table
+loadPointsTable();
+
+// Set an interval to refresh the data every 30 seconds (30000 milliseconds)
+setInterval(loadPointsTable, 3000);
+
+
+</script>
+
+</body>
+</html>
